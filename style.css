@@ -1,463 +1,176 @@
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-}
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio | Marolop S</title>
+    <link rel="icon" href="gambar/IMG_4459 (2).JPG">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
 
-body {
-    background-color: #EEF5F3;
-    font-family: 'Montserrat', sans-serif;
-    color: #393432;
-}
+<body>
+    <!-- Sidebar-->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#sodmed">Sosial Media</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="wrapper">
+            <h1><a href="">Marolop N70</a></h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sosmed">Sosial Media</a></li>
+            </ul>
+            <!-- Bagian Responsive -->
+            <label for="check" class="menu-respon"><i class="fa-solid fa-bars fa-2x"></i></label>
 
-header {
-    height: 70px;
+        </div>
+    </header>
+    <!-- kelas kontent utama -->
+    <!-- <div class="content" id="home"> -->
+    <div class="bungkus" id="about">
+        <div class="foto">
+            <img src="gambar/IMG_4459 (2).JPG" alt="error" />
+            
+        </div>
+        <div class="intro">
+            <h1 class="hello">Hello World</h1>
+            <h4 class="name">Nama saya Marolop S. Napitupulu</h4>
+            <h1>Junior Front-End Web Developer</h1>
+            <p>
+                Saya berusia 22 tahun dan merupakan<i>fresh graduate</i> dari Universitas Mikroskil
+                Medan,
+                Sumatera Utara.
+                Kegiatan saya saat ini adalah belajar pengembangan web, khususnya Frontend. Menggunakan HTML, CSS
+                , dan bahasa pemrograman JavaScript.
+            </p>
+        </div>
+    </div>
 
-}
+    <div class="bungkus" id="pendidikan">
+        <h3>Pendidikan</h3>
+        <div class="foto">
+            <span>
+                <i class="fa-solid fa-book"></i>
+            </span>
+        </div>
+        <div class="intro">
+            <div class="skull">
+                <ul>
+                    <li>2000 Lahir di Purbasinomba</li>
+                    <li>2006 - 2012 SD Negeri 177928 Purbasinomba</li>
+                    <li>2012 - 2015 SMP Negeri 6 Siborongborong</li>
+                    <li>2015 - 2018 SMA Negeri 1 Siborongborong</li>
+                    <li>2018 - 2022 Universitas Mikroskil </li>
+                    <li>Sekarang Belajar Web Development</li>
+                </ul>
+            </div>
+            </p>
+        </div>
+    </div>
 
-header .wrapper {
-    position: fixed;
-    background-color: #abb6b6;
-    box-shadow: 1px 1px 3px black;
-    width: 100%;
-    height: 80px;
-    
-}
-.wrapper a{
-    text-decoration: none;
-    color: black;
-}
-header h1 {
-    display: inline-block;
-    padding: 15px 24px;
-    float: left;
-}
+    <div class="bungkuss" id="skill">
+        <h3>Skills</h3>
+        <h4>Excel</h4>
+        <div class="bar">
+            <span class="excel">85%</span>
+        </div>
 
-header ul {
-    float: right;
-    font-weight: bold;
-}
+        <h4>Word</h4>
+        <div class="bar">
+            <span class="word">90%</span>
+        </div>
 
-header ul li {
-    padding: 24px;
-    display: inline-block;
-}
+        <h4>Power Point</h4>
+        <div class="bar">
+            <span class="pp">80%</span>
+        </div>
 
-a {
-    text-decoration: none;
-}
+        <h4>Visio</h4>
+        <div class="bar">
+            <span class="visio">75%</span>
+        </div>
 
-header h1 :hover {
-    color: #EEF5F3;
-}
+        <h4>HTML</h4>
+        <div class="bar">
+            <span class="html">80%</span>
+        </div>
 
-header ul li :hover {
-    color: #EEF5F3;
-}
+        <h4>CSS</h4>
+        <div class="bar">
+            <span class="css">80%</span>
+        </div>
 
-.wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
+        <h4>JavaScript</h4>
+        <div class="bar">
+            <span class="jj">65%</span>
+        </div>
+    </div>
 
-.wrapper ::after {
-    content: '';
-    display: block;
-    clear: both;
-}
+    <div class="bungkuss" id="contact">
+        <h3>Contact</h3>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 text-sm-center">
+                <span>Alamat</span>
+                <p>Jl. Mangaan 1 LK. IV</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-sm-center">
+                <span>Email</span>
+                <p>olopnapitz@gmail.com</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-sm-center">
+                <span>Telepon</span>
+                <p>082363565674</p>
+            </div>
+        </div>
+    </div>
 
-.menu-respon {
-    float: right;
-    display: none;
-    padding: 18px;
+    <div class="bungkuss" id="sosmed">
+        <h3>Sosial Media</h3>
+        <div class="row">
+           
+            <div class="col-md-4 col-sm-3 text-sm-center">
+                <span>Instagram</span>
+                <p>
+                <a href="https://www.instagram.com/msn.n70" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                </p>
+                
+            </div>
+            <div class="col-md-4 col-sm-3 text-sm-center">
+                <span>Facebook</span>
+                <p>
+                    <a href="https://web.facebook.com/premanTaput" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </p>
+                    </a>
+            </div>
+            <div class="col-md-4 col-sm-3 text-sm-center">
+                <span>Twiter</span>
+                <p>
+                    <a href="https://twitter.com/samueln7o" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </p>
+                    </a>
+            </div>
+        </div>
+    </div>
+<footer>
 
-}
+    <p class="text-align-center"> Copyright &copy2022 - Marolop S. napitupulu</p>
+</footer>
+</body>
 
-.menu-respon:hover {
-    cursor: pointer;
-
-}
-
-#check {
-    display: none;
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: -300px;
-    width: 300px;
-    background-color: rgba(57, 52, 50, .9);
-    display: none;
-}
-
-.sidebar ul li a {
-    color: #ffff;
-}
-
-.sidebar ul li {
-    padding: 24px;
-    transition: 0.3;
-    transition-property: background-color;
-
-}
-
-.sidebar ul :hover {
-    background-color: #F45533;
-}
-
-#check:checked~.sidebar {
-    left: 0;
-}
-
-.content {
-    width: 70%;
-    /* display: flex; */
-    margin: 0 auto;
-    gap: 100px;
-    align-items: center;
-    /* background-color:  red; */
-}
-
-.foto {
-    /* width: 50%; */
-    float: left;
-    /* background-color: red; */
-}
-
-.foto img {
-    width: 300px;
-    height: 350px;
-
-}
-
-.intro {
-    width: 550px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 40px;
-
-}
-
-.intro .hello {
-    color: #393432;
-    font-weight: 200;
-}
-
-.intro h3 {
-    font-weight: 400;
-
-}
-
-.intro h1 {
-    margin-bottom: 10px;
-    color: #1f2222;
-}
-
-.bungkus {
-    width: 80%;
-    margin: auto;
-    height: auto;
-    height: 400px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-
-
-}
-#about{
-    background-color: #abb6b6;
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px 20px 20px;
-}
-
-.intro p {
-    font-weight: 200;
-    text-align: left;
-    margin-bottom: 10px;
-    line-height: 25px;
-}
-
-.bungkus h3 {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: -30px;
-}
-
-.bungkus h4 {
-    font-size: 25px;
-}
-
-.bungkus .foto span i {
-    font-size: 300px;
-}
-
-.intro ul li {
-    font-size: 25px;
-    margin-left: 70px;
-}
-.bungkus .skull{
-    width: 700px;
-    
-}
-#skill{
-    background-color: #abb6b6;
-    height: auto;
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px 20px 20px;
-    
-}
-
-#sosmed{
-    background-color: #abb6b6;
-    height: auto;
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px 20px 20px;
-}
-#skill::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-
-#skill .bar{
-    height: 30px;
-    background-color: white;
-    margin: 5px 0 20px 0;
-    border: 1px solid black;
-}
-#skill h3{
-     margin-bottom: 3px;
-}
-.bar .excel{
-    height: 30px;
-    width: 85%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .word{
-    height: 30px;
-    width: 90%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .html{
-    height: 30px;
-    width: 80%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .visio{
-    height: 30px;
-    width: 75%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .pp{
-    height: 30px;
-    width: 80%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .css{
-    height: 30px;
-    width: 80%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-.bar .jj{
-    height: 30px;
-    width: 65%;
-    background-color: #554845;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-}
-#contact{
-    margin-top: 30px;
-}
-#contact h3{
-    margin-bottom: 20px;
-}
-.row{
-    
-    margin-bottom: 30px;
-
-}
-#sosmed {
-    margin-top: 0;
-}
-/* .row{
-    background-color: red;
-}
-.row .col-md-4{
-    background-color: yellow;
-} */
-
-.bungkuss {
-    width: 80%;
-    margin: 0   auto;
-}
-
-.bungkuss h3{
-    text-align: center;
-}
-
-#sosmed i{
-    cursor: pointer;
-    font-size: 60px;
-}
-footer{
-    height: 90px;
-    background-color: #1f2222;
-    margin-top: 30px;
-   
-}
-footer p{
-    color: white;
-    text-align: center ;
-    justify-content: center;
-    padding: 30px;
-}
-
-.row ul li{
-    display: inline-block;
-}
-
-@media (max-width: 768px) {
-    .menu-respon {
-        display: block;
-    }
-
-    header ul {
-        display: none;
-    }
-
-    .foto img {
-        border-radius: 50%;
-        transition: .5s;
-        width: 200px;
-        height: 200px;
-        margin-left: 25%;
-
-    }
-
-    .intro {
-        margin-left: 5px;
-        width: 100%;
-        font-size: 10px;
-
-    }
-    #pendidikan .skull ul li {
-        display: block;
-        margin-left: -20px;
-    }
-
-    .bungkus.skull {
-        margin-left: 5px;
-        width: 100%;
-        font-size: 10px;
-    }
-    .skull ul li{
-        font-size: 17px;
-    }
-    .bungkus h3{
-        width: 100%;
-        margin-left: 5px;
-        margin-bottom: 5px;
-    }
-    .bungkus .foto span i{
-        border-radius: 50%;
-        font-size: 200px;
-        margin-left: 32%;
-        margin-bottom: -15px;
-    }
-    .bungkus p {
-        font-size: 15px;
-    }
-
-    .bungkus {
-        width: 95%;
-        margin: auto;
-        padding: 0px;
-        margin-top: 10px;
-        height: auto;
-    }
-
-    .foto {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .sidebar {
-        display: block;
-        z-index: 9999;
-        transition: 0.5s;
-    }
-    .sidebar ul li{
-        
-        margin-left: -30px;
-        
-    }
-    .sidebar ul li a{
-        display: block;
-        text-decoration: none;
-        
-    }
-    .sidebar ul li{
-        display: block;
-    }
-    #about{
-        height: auto;
-    }
-    #about::after{
-        display: block;
-        content: '';
-        clear: both;
-    }
-    .bungkuss{
-        width: 95%;
-        margin:0 auto;
-    }
-    
-    #sosmed i{
-        font-size: 40px;
-    }
-    .col-sm-3 {
-        width: 30px;
-        float: left;
-        margin: auto;
-        text-align: center;
-    }   
-    .col-sm-12 {
-        width: 30px;
-        
-        float: left;
-        margin: auto;
-        text-align: center;
-    }    
-    #pendidikan::after{
-        display: block;
-        content: '';
-        clear: both;
-    }
-    #skill ::before{
-        display: block;
-        content: '';
-        clear: both;
-    }
-}
+</html>
