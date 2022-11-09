@@ -10,6 +10,7 @@ body {
     background-color: #EEF5F3;
     font-family: 'Montserrat', sans-serif;
     color: #393432;
+    width: 100%;
 }
 
 header {
@@ -160,12 +161,28 @@ header ul li :hover {
 .bungkus {
     width: 80%;
     margin: auto;
-    height: auto;
-    height: 400px;
-    /* border: 1px solid black; */
     margin-top: 30px;
+}
 
 
+#pendidikan p{
+    margin-top: 15px;
+    font-size: 24px;
+   
+    
+}
+#pendidikan .foto{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#pendidikan h3{
+    margin-top: 30px;
+}
+
+.bungkus::after{
+    display: block;
+    content: '';
+    clear: both;
 }
 #about{
     background-color: #abb6b6;
@@ -198,15 +215,13 @@ header ul li :hover {
     font-size: 25px;
     margin-left: 70px;
 }
-.bungkus .skull{
-    width: 700px;
-    
-}
+
 #skill{
     background-color: #abb6b6;
     height: auto;
     box-shadow: 1px 1px 5px gray;
     padding: 20px 20px 20px;
+    margin-top: 60px;
     
 }
 
@@ -346,7 +361,8 @@ footer p{
     header ul {
         display: none;
     }
-
+   
+  
     .foto img {
         border-radius: 50%;
         transition: .5s;
@@ -362,10 +378,11 @@ footer p{
         font-size: 10px;
 
     }
-    #pendidikan .skull ul li {
-        display: block;
-        margin-left: -20px;
+   
+    #pendidikan .skull p {
+        font-size: 16px;
     }
+    
     #about .foto{
         
         width: 100%;
@@ -386,14 +403,36 @@ footer p{
         margin-left: 5px;
         margin-bottom: 5px;
     }
-    .bungkus .foto span i{
+    #about .foto span i{
         border-radius: 50%;
         font-size: 200px;
         margin-left: 32%;
         margin-bottom: -15px;
     }
-    .bungkus p {
+
+    #about p{
         font-size: 15px;
+    }
+    
+    #pendidikan span i{
+        font-size: 200px;
+    }
+    #pendidikan::after{
+        display: block;
+        content: '';
+        clear: both;
+    }
+    #pendidikan ul{
+        margin-top: 10px;
+    }
+    #pendidikan h3{
+        text-align: center;
+    }
+    #pendidikan .foto {
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0;
+    
     }
 
     .bungkus {
@@ -456,14 +495,16 @@ footer p{
         margin: auto;
         text-align: center;
     }    
-    #pendidikan::after{
-        display: block;
-        content: '';
-        clear: both;
-    }
+   
+  
     #skill ::before{
         display: block;
         content: '';
         clear: both;
     }
+    #skill{
+        margin-top: 20px;
+        top: 20px;
+    }
+   
 }
