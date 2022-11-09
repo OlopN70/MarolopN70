@@ -362,6 +362,10 @@ footer p{
         font-size: 10px;
 
     }
+    #pendidikan .skull ul li {
+        display: block;
+        margin-left: -20px;
+    }
 
     .bungkus.skull {
         margin-left: 5px;
